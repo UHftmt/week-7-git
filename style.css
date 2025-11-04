@@ -1,0 +1,50 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+    width: 470px;
+    height: 40px;
+}
+
+img {
+    width: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+table, th, td {
+    background-color: #fdf0f5;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+table {
+    margin-bottom: 15px;
+    height: 400px;
+}
+
+th {
+    width: 190px;
+}
+
+td {
+    width: 270px;
+}
